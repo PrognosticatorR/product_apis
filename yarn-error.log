@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/Devesh/.nvm/versions/node/v15.6.0/bin/node /Users/Devesh/.yarn/bin/yarn.js add express mongoose body-parser dotenv moregan
+
+PATH: 
+  /Users/Devesh/.yarn/bin:/Users/Devesh/.config/yarn/global/node_modules/.bin:/Users/Devesh/.nvm/versions/node/v15.6.0/bin:/Users/Devesh/development/flutter/bin:/Users/Devesh/go/bin:/Users/Devesh/.local/share/solana/install/active_release/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/Devesh/.yarn/bin:/Users/Devesh/.config/yarn/global/node_modules/.bin:/Users/Devesh/.nvm/versions/node/v15.6.0/bin:/Users/Devesh/development/flutter/bin:/Users/Devesh/go/bin:/Users/Devesh/.local/share/solana/install/active_release/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/Devesh/.cargo/bin:/Users/Devesh/Library/Android/sdk/emulator:/Users/Devesh/Library/Android/sdk/tools:/Users/Devesh/Library/Android/sdk/tools/bin:/Users/Devesh/Library/Android/sdk/platform-tools:/usr/local/mysql/bin:/Users/Devesh/.npm-global/bin/:/Users/Devesh/Library/Android/sdk/emulator:/Users/Devesh/Library/Android/sdk/tools:/Users/Devesh/Library/Android/sdk/tools/bin:/Users/Devesh/Library/Android/sdk/platform-tools:/usr/local/mysql/bin:/Users/Devesh/.npm-global/bin/
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  15.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/moregan: Not found
+      at Request.params.callback [as _callback] (/Users/Devesh/.yarn/lib/cli.js:66975:18)
+      at Request.self.callback (/Users/Devesh/.yarn/lib/cli.js:140727:22)
+      at Request.emit (node:events:379:20)
+      at Request.<anonymous> (/Users/Devesh/.yarn/lib/cli.js:141699:10)
+      at Request.emit (node:events:379:20)
+      at IncomingMessage.<anonymous> (/Users/Devesh/.yarn/lib/cli.js:141621:12)
+      at Object.onceWrapper (node:events:485:28)
+      at IncomingMessage.emit (node:events:391:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+    "name": "product_apis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
